@@ -1,0 +1,20 @@
+{
+  "name": "texas-holdem-mutual-odds-backend",
+  "version": "1.0.0",
+  "description": "Backend for calculating Texas Holdem winning chances.",
+  "main": "index.js",
+  "author": "Dan Clipca",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "poker-odds": "1.0.1"
+  },
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3"
+  }
+}
